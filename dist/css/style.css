@@ -1,0 +1,130 @@
+/* Mobile */
+
+@media (min-width: 576px) {
+    .jumbotron {
+        background-color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .text-left {
+        margin-top: 100px;
+
+    }
+
+    .image1 {
+        width: 200px;
+        height: 300px;
+    }
+
+    .nav-item {
+        text-transform: capitalize;
+
+    }
+}
+
+
+
+
+/* Desktop */
+@media (min-width: 992px) {
+    /* body {
+        background: rgb(0, 255, 59);
+        background: linear-gradient(90deg, rgba(0, 255, 59, 1) 0%, rgba(9, 121, 11, 1) 0%, rgba(206, 226, 220, 1) 0%);
+    } */
+
+    .navbar-brand {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .jumbotron {
+        background-color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin-top: -58px;
+    }
+
+    .text-left {
+        margin-top: 20%;
+    }
+
+    .mini {
+        font-size: 45px;
+    }
+
+    .image1 {
+        width: 400px;
+        height: 500px;
+        margin-left: 60px;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+        margin-right: 10px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .image-section2 {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .text1 {
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    .text2 {
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    .image3 {
+
+        margin-left: 120px;
+    }
+  .owl-controls .owl-buttons{
+position: relative;
+  }
+  .owl-controls .owl.prev{
+      position: absolute;
+      left: -40px;
+      bottom: 230px;
+      padding: 8px 17px;
+      background:#26ccca ;
+      border-radius: 50px;
+      transition: .5s;
+  }
+   .owl-controls .owl.next{
+      position: absolute;
+      right: -40px;
+      bottom: 230px;
+      padding: 8px 17px;
+      background:#26ccca ;
+      border-radius: 50px;
+      transition: .5s;
+  }
+    .owl-controls .owl.prev:after, .owl-controls .owl.next:after{
+        content: '\f104';
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+        font-size: 16px;
+    }
+    .owl-controls .owl.next:after{
+        content: '\f105';
+     
+    }
+      .owl-controls .owl.prev:hover, .owl-controls .owl.next:hover{
+        background: #000;
+    }
+    .plant-grid-image{
+        margin-right: 20px;
+        
+    }
+
+}
